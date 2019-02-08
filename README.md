@@ -90,7 +90,7 @@ public class FooJLiner extends JLiner {
     private static final FooJLiner instance;
     
     private FooJLiner() {
-        super(new RingingJLinerConfig());
+        super(new FooJLinerConfig());
         this.instance = null;
     }
     
